@@ -22,9 +22,9 @@ import java.lang.reflect.Type;
 /**
  * Used to specify generic type information when de-serializing a Response.
  *
- * <pre>
+ * <pre>{@code
  * TypeRef ref = new TypeRef<List<Map<String, Integer>>() { };
- * </pre>
+ * }</pre>
  *
  * Code is heavily inspired by (some might even say copied), from the <a href="https://github.com/json-path/JsonPath">JsonPath</a> project.
  * @param <T> The type
